@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Alura Books — React Learning Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A frontend learning project based on Create React App, used to practice building a book-related web interface with React.
 
-## Available Scripts
+> **Status:** Educational repository. The technology list below is verified from `package.json`; individual screens and user journeys have not been audited for this documentation update.
 
-In the project directory, you can run:
+## Technology stack
 
-### `npm start`
+- React 18 and React DOM
+- Create React App / `react-scripts` 5
+- React Router DOM 6
+- Styled Components 6
+- Axios
+- Testing Library (React, Jest DOM, User Event)
+- JavaScript, HTML and CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+These packages are declared dependencies; the README does not imply that every library is used in every screen.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Frontend architecture
 
-### `npm test`
+The project uses the Create React App toolchain for development, building and testing. The declared dependencies provide the building blocks for:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React component-based UI
+- Client-side navigation with React Router
+- Component styling with Styled Components
+- HTTP requests with Axios
+- UI tests using Testing Library
 
-### `npm run build`
+The exact component hierarchy, API endpoints and backend requirements should be confirmed from the source before documenting them as implemented features.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Getting started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Prerequisites: Node.js and npm compatible with the project's dependency versions.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+git clone https://github.com/fefeutitan/alura-books.git
+cd alura-books
+npm install
+npm start
+```
 
-### `npm run eject`
+Open [http://localhost:3000](http://localhost:3000) after the development server starts.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Available commands
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+| Command | Description |
+| --- | --- |
+| `npm start` | Run the local development server |
+| `npm test` | Launch the React test runner in watch mode |
+| `npm run build` | Create a production build in `build/` |
+| `npm run eject` | Expose CRA configuration (irreversible; generally unnecessary) |
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Commands come from `package.json`. Installation, build and tests have not been executed during this documentation update.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Maintenance notes
 
-## Learn More
+Create React App and several dependencies are from an older frontend toolchain. Check dependency compatibility and security advisories before using this code as the basis for a new production project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Author
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Fernando Ellery](https://github.com/fefeutitan) · [LinkedIn](https://www.linkedin.com/in/fernando-ellery-133a209/)
